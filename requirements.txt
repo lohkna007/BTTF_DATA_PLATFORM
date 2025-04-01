@@ -1,0 +1,12 @@
+
+### requirements.txt
+
+psycopg2-binary
+requests
+pandas
+python-dotenv
+urllib3
+chardet
+charset_normalizer
+matplotlib
+seaborn

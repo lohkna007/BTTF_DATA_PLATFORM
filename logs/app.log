@@ -1,0 +1,266 @@
+2025-03-29 16:43:14,172 - ERROR - Error fetching weather data for lat: 52.52437, lon: 13.41053 at timestamp: 1743160392 | Exception: type NoneType doesn't define __round__ method
+2025-03-29 16:43:14,931 - ERROR - Error fetching weather data for lat: 48.85341, lon: 2.3488 at timestamp: 1743160392 | Exception: type NoneType doesn't define __round__ method
+2025-03-29 16:43:14,939 - INFO - Weather data saved successfully to /Users/gauravlohkna/Documents/bttf_data_platform/scripts/../data/weather_data.csv
+2025-03-29 16:50:32,455 - ERROR - Temperature value is None for lat: 52.52437, lon: 13.41053 at timestamp: 1743160831
+2025-03-29 16:50:33,720 - ERROR - Temperature value is None for lat: 48.85341, lon: 2.3488 at timestamp: 1743160831
+2025-03-29 16:50:33,728 - INFO - Weather data saved successfully to /Users/gauravlohkna/Documents/bttf_data_platform/scripts/../data/weather_data.csv
+2025-03-29 16:55:57,013 - INFO - Processing location: Berlin
+2025-03-29 16:55:58,700 - INFO - Successfully fetched data for lat: 52.52437, lon: 13.41053 on 2025-03-24
+2025-03-29 16:55:58,703 - INFO - Processed weather data for Berlin: {'time': '2025-03-24T12:00', 'temperature_celsius': 12.8, 'relative_humidity': 66, 'city': 'Berlin'}
+2025-03-29 16:55:58,703 - INFO - Processing location: Paris
+2025-03-29 16:55:59,499 - INFO - Successfully fetched data for lat: 48.85341, lon: 2.3488 on 2025-03-24
+2025-03-29 16:55:59,500 - INFO - Processed weather data for Paris: {'time': '2025-03-24T12:00', 'temperature_celsius': 15.2, 'relative_humidity': 61, 'city': 'Paris'}
+2025-03-29 16:55:59,507 - INFO - Successfully saved weather data to /Users/gauravlohkna/Documents/bttf_data_platform/scripts/../data/historical_weather_data.csv
+2025-03-29 17:02:01,745 - INFO - Fetching weather for Hamburg (lat: 53.55073, lon: 9.99302)
+2025-03-29 17:02:03,020 - INFO - Fetched weather data for (lat: 53.55073, lon: 9.99302) on 2025-03-24
+2025-03-29 17:02:03,023 - INFO - Weather record for Hamburg: {'time': '2025-03-24T12:00', 'temperature_celsius': 12.6, 'relative_humidity': 67, 'city': 'Hamburg', 'latitude': 53.55073, 'longitude': 9.99302, 'date': '2025-03-24'}
+2025-03-29 17:02:03,023 - INFO - Fetching weather for Budapest (lat: 47.49835, lon: 19.04045)
+2025-03-29 17:02:03,951 - INFO - Fetched weather data for (lat: 47.49835, lon: 19.04045) on 2025-03-24
+2025-03-29 17:02:03,952 - INFO - Weather record for Budapest: {'time': '2025-03-24T12:00', 'temperature_celsius': 15.2, 'relative_humidity': 70, 'city': 'Budapest', 'latitude': 47.49835, 'longitude': 19.04045, 'date': '2025-03-24'}
+2025-03-29 17:02:03,953 - INFO - Fetching weather for Rome (lat: 41.89193, lon: 12.51133)
+2025-03-29 17:02:04,844 - INFO - Fetched weather data for (lat: 41.89193, lon: 12.51133) on 2025-03-24
+2025-03-29 17:02:04,845 - INFO - Weather record for Rome: {'time': '2025-03-24T12:00', 'temperature_celsius': 17.4, 'relative_humidity': 71, 'city': 'Rome', 'latitude': 41.89193, 'longitude': 12.51133, 'date': '2025-03-24'}
+2025-03-29 17:02:04,846 - INFO - Fetching weather for Kyiv (lat: 50.45466, lon: 30.5238)
+2025-03-29 17:02:05,660 - INFO - Fetched weather data for (lat: 50.45466, lon: 30.5238) on 2025-03-24
+2025-03-29 17:02:05,661 - INFO - Weather record for Kyiv: {'time': '2025-03-24T12:00', 'temperature_celsius': 10.8, 'relative_humidity': 55, 'city': 'Kyiv', 'latitude': 50.45466, 'longitude': 30.5238, 'date': '2025-03-24'}
+2025-03-29 17:02:05,662 - INFO - Fetching weather for Barcelona (lat: 41.38879, lon: 2.15899)
+2025-03-29 17:02:06,399 - INFO - Fetched weather data for (lat: 41.38879, lon: 2.15899) on 2025-03-24
+2025-03-29 17:02:06,401 - INFO - Weather record for Barcelona: {'time': '2025-03-24T12:00', 'temperature_celsius': 14.7, 'relative_humidity': 64, 'city': 'Barcelona', 'latitude': 41.38879, 'longitude': 2.15899, 'date': '2025-03-24'}
+2025-03-29 17:02:06,402 - INFO - Fetching weather for Istanbul (lat: 41.01384, lon: 28.94966)
+2025-03-29 17:02:07,546 - INFO - Fetched weather data for (lat: 41.01384, lon: 28.94966) on 2025-03-24
+2025-03-29 17:02:07,547 - INFO - Weather record for Istanbul: {'time': '2025-03-24T12:00', 'temperature_celsius': 16.3, 'relative_humidity': 54, 'city': 'Istanbul', 'latitude': 41.01384, 'longitude': 28.94966, 'date': '2025-03-24'}
+2025-03-29 17:02:07,548 - INFO - Fetching weather for Ankara (lat: 39.91987, lon: 32.85427)
+2025-03-29 17:02:08,362 - INFO - Fetched weather data for (lat: 39.91987, lon: 32.85427) on 2025-03-24
+2025-03-29 17:02:08,364 - INFO - Weather record for Ankara: {'time': '2025-03-24T12:00', 'temperature_celsius': 15.3, 'relative_humidity': 41, 'city': 'Ankara', 'latitude': 39.91987, 'longitude': 32.85427, 'date': '2025-03-24'}
+2025-03-29 17:02:08,364 - INFO - Fetching weather for Madrid (lat: 40.4165, lon: -3.70256)
+2025-03-29 17:02:09,187 - INFO - Fetched weather data for (lat: 40.4165, lon: -3.70256) on 2025-03-24
+2025-03-29 17:02:09,188 - INFO - Weather record for Madrid: {'time': '2025-03-24T12:00', 'temperature_celsius': 11.1, 'relative_humidity': 63, 'city': 'Madrid', 'latitude': 40.4165, 'longitude': -3.70256, 'date': '2025-03-24'}
+2025-03-29 17:02:09,188 - INFO - Fetching weather for Paris (lat: 48.85341, lon: 2.3488)
+2025-03-29 17:02:10,214 - INFO - Fetched weather data for (lat: 48.85341, lon: 2.3488) on 2025-03-24
+2025-03-29 17:02:10,215 - INFO - Weather record for Paris: {'time': '2025-03-24T12:00', 'temperature_celsius': 15.2, 'relative_humidity': 61, 'city': 'Paris', 'latitude': 48.85341, 'longitude': 2.3488, 'date': '2025-03-24'}
+2025-03-29 17:02:10,216 - INFO - Fetching weather for Saint Petersburg (lat: 59.93863, lon: 30.31413)
+2025-03-29 17:02:11,335 - INFO - Fetched weather data for (lat: 59.93863, lon: 30.31413) on 2025-03-24
+2025-03-29 17:02:11,336 - INFO - Weather record for Saint Petersburg: {'time': '2025-03-24T12:00', 'temperature_celsius': 7.5, 'relative_humidity': 56, 'city': 'Saint Petersburg', 'latitude': 59.93863, 'longitude': 30.31413, 'date': '2025-03-24'}
+2025-03-29 17:02:11,337 - INFO - Fetching weather for Minsk (lat: 53.9, lon: 27.56667)
+2025-03-29 17:02:12,563 - INFO - Fetched weather data for (lat: 53.9, lon: 27.56667) on 2025-03-24
+2025-03-29 17:02:12,564 - INFO - Weather record for Minsk: {'time': '2025-03-24T12:00', 'temperature_celsius': 5.1, 'relative_humidity': 97, 'city': 'Minsk', 'latitude': 53.9, 'longitude': 27.56667, 'date': '2025-03-24'}
+2025-03-29 17:02:12,565 - INFO - Fetching weather for London (lat: 51.50853, lon: -0.12574)
+2025-03-29 17:02:13,595 - INFO - Fetched weather data for (lat: 51.50853, lon: -0.12574) on 2025-03-24
+2025-03-29 17:02:13,596 - INFO - Weather record for London: {'time': '2025-03-24T12:00', 'temperature_celsius': 11.8, 'relative_humidity': 63, 'city': 'London', 'latitude': 51.50853, 'longitude': -0.12574, 'date': '2025-03-24'}
+2025-03-29 17:02:13,597 - INFO - Fetching weather for Bucharest (lat: 44.43225, lon: 26.10626)
+2025-03-29 17:02:14,714 - INFO - Fetched weather data for (lat: 44.43225, lon: 26.10626) on 2025-03-24
+2025-03-29 17:02:14,715 - INFO - Weather record for Bucharest: {'time': '2025-03-24T12:00', 'temperature_celsius': 18.0, 'relative_humidity': 64, 'city': 'Bucharest', 'latitude': 44.43225, 'longitude': 26.10626, 'date': '2025-03-24'}
+2025-03-29 17:02:14,715 - INFO - Fetching weather for Berlin (lat: 52.52437, lon: 13.41053)
+2025-03-29 17:02:15,737 - INFO - Fetched weather data for (lat: 52.52437, lon: 13.41053) on 2025-03-24
+2025-03-29 17:02:15,737 - INFO - Weather record for Berlin: {'time': '2025-03-24T12:00', 'temperature_celsius': 12.8, 'relative_humidity': 66, 'city': 'Berlin', 'latitude': 52.52437, 'longitude': 13.41053, 'date': '2025-03-24'}
+2025-03-29 17:02:15,738 - INFO - Fetching weather for Moscow (lat: 55.75222, lon: 37.61556)
+2025-03-29 17:02:16,553 - INFO - Fetched weather data for (lat: 55.75222, lon: 37.61556) on 2025-03-24
+2025-03-29 17:02:16,554 - INFO - Weather record for Moscow: {'time': '2025-03-24T12:00', 'temperature_celsius': 10.0, 'relative_humidity': 46, 'city': 'Moscow', 'latitude': 55.75222, 'longitude': 37.61556, 'date': '2025-03-24'}
+2025-03-29 17:02:16,554 - INFO - Fetching weather for Stockholm (lat: 59.32938, lon: 18.06871)
+2025-03-29 17:02:17,346 - INFO - Fetched weather data for (lat: 59.32938, lon: 18.06871) on 2025-03-24
+2025-03-29 17:02:17,347 - INFO - Weather record for Stockholm: {'time': '2025-03-24T12:00', 'temperature_celsius': 8.4, 'relative_humidity': 48, 'city': 'Stockholm', 'latitude': 59.32938, 'longitude': 18.06871, 'date': '2025-03-24'}
+2025-03-29 17:02:17,347 - INFO - Fetching weather for Warsaw (lat: 52.22977, lon: 21.01178)
+2025-03-29 17:02:18,256 - INFO - Fetched weather data for (lat: 52.22977, lon: 21.01178) on 2025-03-24
+2025-03-29 17:02:18,257 - INFO - Weather record for Warsaw: {'time': '2025-03-24T12:00', 'temperature_celsius': 10.3, 'relative_humidity': 71, 'city': 'Warsaw', 'latitude': 52.22977, 'longitude': 21.01178, 'date': '2025-03-24'}
+2025-03-29 17:02:18,258 - INFO - Fetching weather for Vienna (lat: 48.20849, lon: 16.37208)
+2025-03-29 17:02:19,347 - INFO - Fetched weather data for (lat: 48.20849, lon: 16.37208) on 2025-03-24
+2025-03-29 17:02:19,347 - INFO - Weather record for Vienna: {'time': '2025-03-24T12:00', 'temperature_celsius': 17.2, 'relative_humidity': 50, 'city': 'Vienna', 'latitude': 48.20849, 'longitude': 16.37208, 'date': '2025-03-24'}
+2025-03-29 17:02:19,351 - INFO - Successfully saved aggregated weather data to /Users/gauravlohkna/Documents/bttf_data_platform/scripts/../data/cities_weather_data.csv
+2025-03-29 17:05:11,834 - INFO - Successfully loaded shipments and weather data.
+2025-03-29 17:05:11,839 - INFO - Data processing and aggregation complete.
+2025-03-29 17:05:11,841 - INFO - Aggregated metrics saved to /Users/gauravlohkna/Documents/bttf_data_platform/scripts/../data/aggregated_metrics.csv
+2025-03-29 17:15:37,437 - INFO - Loaded shipments data: 9445 records
+2025-03-29 17:15:37,438 - INFO - Loaded weather data: 18 records
+2025-03-29 17:15:37,438 - INFO - Starting merge process: shipments (9445) vs weather (18)
+2025-03-29 17:15:37,441 - INFO - Merged DataFrame shape: (9445, 16)
+2025-03-29 17:15:37,443 - INFO - Sample merged records:
+     id  track  driver    shipment_start_timestamp      shipment_end_timestamp start_location end_location  shipment_distance  consumed_fuel              time  temperature_celsius  relative_humidity     city  latitude  longitude        date
+0  9919   6305    4272  2022-07-29 20:12:53.027776    2022-07-30 22:52:32.9034        Hamburg    Barcelona         1769.40660         342.89  2025-03-24T12:00                 12.6                 67  Hamburg  53.55073    9.99302  2025-03-24
+1  9963   6931    3438  2022-07-23 19:33:42.412344  2022-07-25 07:43:57.066507        Hamburg       Ankara         2752.17850         506.77  2025-03-24T12:00                 12.6                 67  Hamburg  53.55073    9.99302  2025-03-24
+2  9969   2514    4797  2022-07-29 18:01:08.431993  2022-07-30 06:24:11.660956        Hamburg       London          865.48140         161.01  2025-03-24T12:00                 12.6                 67  Hamburg  53.55073    9.99302  2025-03-24
+3  9913   2531    9127  2022-07-06 00:16:40.813996  2022-07-06 14:22:57.521956        Hamburg    Stockholm          974.03534         180.04  2025-03-24T12:00                 12.6                 67  Hamburg  53.55073    9.99302  2025-03-24
+4  9691   9035    7504  2022-07-18 01:01:13.147528  2022-07-18 17:31:10.597189        Hamburg     Budapest         1113.69500         204.33  2025-03-24T12:00                 12.6                 67  Hamburg  53.55073    9.99302  2025-03-24
+2025-03-29 17:15:37,445 - INFO - Quantile-based bins for temperature: [ 5.1 10.3 12.6 15.3 18. ]
+2025-03-29 17:15:37,446 - INFO - Temperature bucket counts:
+temp_range
+(5.098999999999999, 10.3]    2673
+(12.6, 15.3]                 2596
+(10.3, 12.6]                 2129
+(15.3, 18.0]                 2047
+Name: count, dtype: int64
+2025-03-29 17:15:37,446 - INFO - Calculated fuel consumption for merged data.
+2025-03-29 17:15:37,448 - INFO - Aggregated metrics by temperature range:
+               temp_range  avg_fuel_consumption
+(5.098999999999999, 10.3]              0.197765
+             (10.3, 12.6]              0.172119
+             (12.6, 15.3]              0.162244
+             (15.3, 18.0]              0.154307
+2025-03-29 17:15:37,449 - INFO - Aggregated metrics saved to /Users/gauravlohkna/Documents/bttf_data_platform/scripts/../data/aggregated_metrics.csv
+2025-03-29 17:39:16,048 - INFO - Loaded aggregated data: 4 records
+2025-03-29 17:40:36,825 - INFO - Displayed aggregated data visualization.
+2025-04-01 22:16:47,428 - INFO - Loaded shipments data: 9445 records
+2025-04-01 22:16:47,428 - INFO - Loaded weather data: 18 records
+2025-04-01 22:16:47,428 - INFO - Starting merge process: shipments (9445) vs weather (18)
+2025-04-01 22:16:47,430 - INFO - Merged DataFrame shape: (9445, 16)
+2025-04-01 22:16:47,433 - INFO - Sample merged records:
+     id  track  driver    shipment_start_timestamp      shipment_end_timestamp start_location end_location  shipment_distance  consumed_fuel              time  temperature_celsius  relative_humidity     city  latitude  longitude        date
+0  9919   6305    4272  2022-07-29 20:12:53.027776    2022-07-30 22:52:32.9034        Hamburg    Barcelona         1769.40660         342.89  2025-03-24T12:00                 12.6                 67  Hamburg  53.55073    9.99302  2025-03-24
+1  9963   6931    3438  2022-07-23 19:33:42.412344  2022-07-25 07:43:57.066507        Hamburg       Ankara         2752.17850         506.77  2025-03-24T12:00                 12.6                 67  Hamburg  53.55073    9.99302  2025-03-24
+2  9969   2514    4797  2022-07-29 18:01:08.431993  2022-07-30 06:24:11.660956        Hamburg       London          865.48140         161.01  2025-03-24T12:00                 12.6                 67  Hamburg  53.55073    9.99302  2025-03-24
+3  9913   2531    9127  2022-07-06 00:16:40.813996  2022-07-06 14:22:57.521956        Hamburg    Stockholm          974.03534         180.04  2025-03-24T12:00                 12.6                 67  Hamburg  53.55073    9.99302  2025-03-24
+4  9691   9035    7504  2022-07-18 01:01:13.147528  2022-07-18 17:31:10.597189        Hamburg     Budapest         1113.69500         204.33  2025-03-24T12:00                 12.6                 67  Hamburg  53.55073    9.99302  2025-03-24
+2025-04-01 22:16:47,436 - INFO - Quantile-based bins for temperature: [ 5.1 10.3 12.6 15.3 18. ]
+2025-04-01 22:16:47,436 - INFO - Temperature bucket counts:
+temp_range
+(5.098999999999999, 10.3]    2673
+(12.6, 15.3]                 2596
+(10.3, 12.6]                 2129
+(15.3, 18.0]                 2047
+Name: count, dtype: int64
+2025-04-01 22:16:47,436 - INFO - Calculated fuel consumption for merged data.
+2025-04-01 22:16:47,438 - INFO - Aggregated metrics by temperature range:
+               temp_range  avg_fuel_consumption
+(5.098999999999999, 10.3]              0.197765
+             (10.3, 12.6]              0.172119
+             (12.6, 15.3]              0.162244
+             (15.3, 18.0]              0.154307
+2025-04-01 22:16:47,440 - INFO - Aggregated metrics saved to /Users/gauravlohkna/Documents/bttf_data_platform/scripts/../data/aggregated_metrics.csv
+2025-04-01 22:17:27,229 - INFO - Fetching weather for Hamburg (lat: 53.55073, lon: 9.99302)
+2025-04-01 22:17:27,985 - INFO - Fetched weather data for (lat: 53.55073, lon: 9.99302) on 2025-03-24
+2025-04-01 22:17:27,986 - INFO - Weather record for Hamburg: {'time': '2025-03-24T12:00', 'temperature_celsius': 12.6, 'relative_humidity': 67, 'city': 'Hamburg', 'latitude': 53.55073, 'longitude': 9.99302, 'date': '2025-03-24'}
+2025-04-01 22:17:27,987 - INFO - Fetching weather for Budapest (lat: 47.49835, lon: 19.04045)
+2025-04-01 22:17:28,681 - INFO - Fetched weather data for (lat: 47.49835, lon: 19.04045) on 2025-03-24
+2025-04-01 22:17:28,683 - INFO - Weather record for Budapest: {'time': '2025-03-24T12:00', 'temperature_celsius': 15.2, 'relative_humidity': 70, 'city': 'Budapest', 'latitude': 47.49835, 'longitude': 19.04045, 'date': '2025-03-24'}
+2025-04-01 22:17:28,684 - INFO - Fetching weather for Rome (lat: 41.89193, lon: 12.51133)
+2025-04-01 22:17:29,428 - INFO - Fetched weather data for (lat: 41.89193, lon: 12.51133) on 2025-03-24
+2025-04-01 22:17:29,429 - INFO - Weather record for Rome: {'time': '2025-03-24T12:00', 'temperature_celsius': 17.4, 'relative_humidity': 71, 'city': 'Rome', 'latitude': 41.89193, 'longitude': 12.51133, 'date': '2025-03-24'}
+2025-04-01 22:17:29,430 - INFO - Fetching weather for Kyiv (lat: 50.45466, lon: 30.5238)
+2025-04-01 22:17:30,142 - INFO - Fetched weather data for (lat: 50.45466, lon: 30.5238) on 2025-03-24
+2025-04-01 22:17:30,144 - INFO - Weather record for Kyiv: {'time': '2025-03-24T12:00', 'temperature_celsius': 10.8, 'relative_humidity': 55, 'city': 'Kyiv', 'latitude': 50.45466, 'longitude': 30.5238, 'date': '2025-03-24'}
+2025-04-01 22:17:30,145 - INFO - Fetching weather for Barcelona (lat: 41.38879, lon: 2.15899)
+2025-04-01 22:17:30,830 - INFO - Fetched weather data for (lat: 41.38879, lon: 2.15899) on 2025-03-24
+2025-04-01 22:17:30,831 - INFO - Weather record for Barcelona: {'time': '2025-03-24T12:00', 'temperature_celsius': 14.7, 'relative_humidity': 64, 'city': 'Barcelona', 'latitude': 41.38879, 'longitude': 2.15899, 'date': '2025-03-24'}
+2025-04-01 22:17:30,832 - INFO - Fetching weather for Istanbul (lat: 41.01384, lon: 28.94966)
+2025-04-01 22:17:31,470 - INFO - Fetched weather data for (lat: 41.01384, lon: 28.94966) on 2025-03-24
+2025-04-01 22:17:31,471 - INFO - Weather record for Istanbul: {'time': '2025-03-24T12:00', 'temperature_celsius': 16.3, 'relative_humidity': 54, 'city': 'Istanbul', 'latitude': 41.01384, 'longitude': 28.94966, 'date': '2025-03-24'}
+2025-04-01 22:17:31,472 - INFO - Fetching weather for Ankara (lat: 39.91987, lon: 32.85427)
+2025-04-01 22:17:32,108 - INFO - Fetched weather data for (lat: 39.91987, lon: 32.85427) on 2025-03-24
+2025-04-01 22:17:32,109 - INFO - Weather record for Ankara: {'time': '2025-03-24T12:00', 'temperature_celsius': 15.3, 'relative_humidity': 41, 'city': 'Ankara', 'latitude': 39.91987, 'longitude': 32.85427, 'date': '2025-03-24'}
+2025-04-01 22:17:32,110 - INFO - Fetching weather for Madrid (lat: 40.4165, lon: -3.70256)
+2025-04-01 22:17:32,762 - INFO - Fetched weather data for (lat: 40.4165, lon: -3.70256) on 2025-03-24
+2025-04-01 22:17:32,763 - INFO - Weather record for Madrid: {'time': '2025-03-24T12:00', 'temperature_celsius': 11.1, 'relative_humidity': 63, 'city': 'Madrid', 'latitude': 40.4165, 'longitude': -3.70256, 'date': '2025-03-24'}
+2025-04-01 22:17:32,764 - INFO - Fetching weather for Paris (lat: 48.85341, lon: 2.3488)
+2025-04-01 22:17:33,440 - INFO - Fetched weather data for (lat: 48.85341, lon: 2.3488) on 2025-03-24
+2025-04-01 22:17:33,441 - INFO - Weather record for Paris: {'time': '2025-03-24T12:00', 'temperature_celsius': 15.2, 'relative_humidity': 61, 'city': 'Paris', 'latitude': 48.85341, 'longitude': 2.3488, 'date': '2025-03-24'}
+2025-04-01 22:17:33,441 - INFO - Fetching weather for Saint Petersburg (lat: 59.93863, lon: 30.31413)
+2025-04-01 22:17:34,097 - INFO - Fetched weather data for (lat: 59.93863, lon: 30.31413) on 2025-03-24
+2025-04-01 22:17:34,098 - INFO - Weather record for Saint Petersburg: {'time': '2025-03-24T12:00', 'temperature_celsius': 7.5, 'relative_humidity': 56, 'city': 'Saint Petersburg', 'latitude': 59.93863, 'longitude': 30.31413, 'date': '2025-03-24'}
+2025-04-01 22:17:34,098 - INFO - Fetching weather for Minsk (lat: 53.9, lon: 27.56667)
+2025-04-01 22:17:34,781 - INFO - Fetched weather data for (lat: 53.9, lon: 27.56667) on 2025-03-24
+2025-04-01 22:17:34,783 - INFO - Weather record for Minsk: {'time': '2025-03-24T12:00', 'temperature_celsius': 5.1, 'relative_humidity': 97, 'city': 'Minsk', 'latitude': 53.9, 'longitude': 27.56667, 'date': '2025-03-24'}
+2025-04-01 22:17:34,783 - INFO - Fetching weather for London (lat: 51.50853, lon: -0.12574)
+2025-04-01 22:17:35,433 - INFO - Fetched weather data for (lat: 51.50853, lon: -0.12574) on 2025-03-24
+2025-04-01 22:17:35,434 - INFO - Weather record for London: {'time': '2025-03-24T12:00', 'temperature_celsius': 11.8, 'relative_humidity': 63, 'city': 'London', 'latitude': 51.50853, 'longitude': -0.12574, 'date': '2025-03-24'}
+2025-04-01 22:17:35,434 - INFO - Fetching weather for Bucharest (lat: 44.43225, lon: 26.10626)
+2025-04-01 22:17:36,108 - INFO - Fetched weather data for (lat: 44.43225, lon: 26.10626) on 2025-03-24
+2025-04-01 22:17:36,109 - INFO - Weather record for Bucharest: {'time': '2025-03-24T12:00', 'temperature_celsius': 18.0, 'relative_humidity': 64, 'city': 'Bucharest', 'latitude': 44.43225, 'longitude': 26.10626, 'date': '2025-03-24'}
+2025-04-01 22:17:36,109 - INFO - Fetching weather for Berlin (lat: 52.52437, lon: 13.41053)
+2025-04-01 22:17:36,740 - INFO - Fetched weather data for (lat: 52.52437, lon: 13.41053) on 2025-03-24
+2025-04-01 22:17:36,742 - INFO - Weather record for Berlin: {'time': '2025-03-24T12:00', 'temperature_celsius': 12.8, 'relative_humidity': 66, 'city': 'Berlin', 'latitude': 52.52437, 'longitude': 13.41053, 'date': '2025-03-24'}
+2025-04-01 22:17:36,743 - INFO - Fetching weather for Moscow (lat: 55.75222, lon: 37.61556)
+2025-04-01 22:17:37,431 - INFO - Fetched weather data for (lat: 55.75222, lon: 37.61556) on 2025-03-24
+2025-04-01 22:17:37,432 - INFO - Weather record for Moscow: {'time': '2025-03-24T12:00', 'temperature_celsius': 10.0, 'relative_humidity': 46, 'city': 'Moscow', 'latitude': 55.75222, 'longitude': 37.61556, 'date': '2025-03-24'}
+2025-04-01 22:17:37,433 - INFO - Fetching weather for Stockholm (lat: 59.32938, lon: 18.06871)
+2025-04-01 22:17:38,107 - INFO - Fetched weather data for (lat: 59.32938, lon: 18.06871) on 2025-03-24
+2025-04-01 22:17:38,108 - INFO - Weather record for Stockholm: {'time': '2025-03-24T12:00', 'temperature_celsius': 8.4, 'relative_humidity': 48, 'city': 'Stockholm', 'latitude': 59.32938, 'longitude': 18.06871, 'date': '2025-03-24'}
+2025-04-01 22:17:38,109 - INFO - Fetching weather for Warsaw (lat: 52.22977, lon: 21.01178)
+2025-04-01 22:17:38,772 - INFO - Fetched weather data for (lat: 52.22977, lon: 21.01178) on 2025-03-24
+2025-04-01 22:17:38,773 - INFO - Weather record for Warsaw: {'time': '2025-03-24T12:00', 'temperature_celsius': 10.3, 'relative_humidity': 71, 'city': 'Warsaw', 'latitude': 52.22977, 'longitude': 21.01178, 'date': '2025-03-24'}
+2025-04-01 22:17:38,774 - INFO - Fetching weather for Vienna (lat: 48.20849, lon: 16.37208)
+2025-04-01 22:17:39,428 - INFO - Fetched weather data for (lat: 48.20849, lon: 16.37208) on 2025-03-24
+2025-04-01 22:17:39,429 - INFO - Weather record for Vienna: {'time': '2025-03-24T12:00', 'temperature_celsius': 17.2, 'relative_humidity': 50, 'city': 'Vienna', 'latitude': 48.20849, 'longitude': 16.37208, 'date': '2025-03-24'}
+2025-04-01 22:17:39,435 - INFO - Successfully saved aggregated weather data to /Users/gauravlohkna/Documents/bttf_data_platform/scripts/../data/cities_weather_data.csv
+2025-04-01 23:25:45,320 - INFO - Loaded shipments data: 9445 records
+2025-04-01 23:25:45,320 - INFO - Loaded weather data: 18 records
+2025-04-01 23:25:45,320 - INFO - Starting merge process: shipments (9445) vs weather (18)
+2025-04-01 23:25:45,325 - INFO - Merged DataFrame shape: (9445, 16)
+2025-04-01 23:25:45,327 - INFO - Sample merged records:
+     id  track  driver    shipment_start_timestamp      shipment_end_timestamp start_location end_location  shipment_distance  consumed_fuel              time  temperature_celsius  relative_humidity     city  latitude  longitude        date
+0  9919   6305    4272  2022-07-29 20:12:53.027776    2022-07-30 22:52:32.9034        Hamburg    Barcelona         1769.40660         342.89  2025-03-24T12:00                 12.6                 67  Hamburg  53.55073    9.99302  2025-03-24
+1  9963   6931    3438  2022-07-23 19:33:42.412344  2022-07-25 07:43:57.066507        Hamburg       Ankara         2752.17850         506.77  2025-03-24T12:00                 12.6                 67  Hamburg  53.55073    9.99302  2025-03-24
+2  9969   2514    4797  2022-07-29 18:01:08.431993  2022-07-30 06:24:11.660956        Hamburg       London          865.48140         161.01  2025-03-24T12:00                 12.6                 67  Hamburg  53.55073    9.99302  2025-03-24
+3  9913   2531    9127  2022-07-06 00:16:40.813996  2022-07-06 14:22:57.521956        Hamburg    Stockholm          974.03534         180.04  2025-03-24T12:00                 12.6                 67  Hamburg  53.55073    9.99302  2025-03-24
+4  9691   9035    7504  2022-07-18 01:01:13.147528  2022-07-18 17:31:10.597189        Hamburg     Budapest         1113.69500         204.33  2025-03-24T12:00                 12.6                 67  Hamburg  53.55073    9.99302  2025-03-24
+2025-04-01 23:25:45,330 - INFO - Quantile-based bins for temperature: [ 5.1 10.3 12.6 15.3 18. ]
+2025-04-01 23:25:45,331 - INFO - Temperature bucket counts:
+temp_range
+(5.098999999999999, 10.3]    2673
+(12.6, 15.3]                 2596
+(10.3, 12.6]                 2129
+(15.3, 18.0]                 2047
+Name: count, dtype: int64
+2025-04-01 23:25:45,331 - INFO - Calculated fuel consumption for merged data.
+2025-04-01 23:25:45,334 - INFO - Aggregated metrics by temperature range:
+               temp_range  avg_fuel_consumption
+(5.098999999999999, 10.3]              0.197765
+             (10.3, 12.6]              0.172119
+             (12.6, 15.3]              0.162244
+             (15.3, 18.0]              0.154307
+2025-04-01 23:25:45,335 - INFO - Aggregated metrics saved to /Users/gauravlohkna/Documents/bttf_data_platform/scripts/../data/aggregated_metrics.csv
+2025-04-01 23:26:09,349 - INFO - Fetching weather for Hamburg (lat: 53.55073, lon: 9.99302)
+2025-04-01 23:26:10,068 - INFO - Fetched weather data for (lat: 53.55073, lon: 9.99302) on 2025-03-24
+2025-04-01 23:26:10,070 - INFO - Weather record for Hamburg: {'time': '2025-03-24T12:00', 'temperature_celsius': 12.6, 'relative_humidity': 67, 'city': 'Hamburg', 'latitude': 53.55073, 'longitude': 9.99302, 'date': '2025-03-24'}
+2025-04-01 23:26:10,071 - INFO - Fetching weather for Budapest (lat: 47.49835, lon: 19.04045)
+2025-04-01 23:26:10,698 - INFO - Fetched weather data for (lat: 47.49835, lon: 19.04045) on 2025-03-24
+2025-04-01 23:26:10,699 - INFO - Weather record for Budapest: {'time': '2025-03-24T12:00', 'temperature_celsius': 15.2, 'relative_humidity': 70, 'city': 'Budapest', 'latitude': 47.49835, 'longitude': 19.04045, 'date': '2025-03-24'}
+2025-04-01 23:26:10,700 - INFO - Fetching weather for Rome (lat: 41.89193, lon: 12.51133)
+2025-04-01 23:26:11,359 - INFO - Fetched weather data for (lat: 41.89193, lon: 12.51133) on 2025-03-24
+2025-04-01 23:26:11,359 - INFO - Weather record for Rome: {'time': '2025-03-24T12:00', 'temperature_celsius': 17.4, 'relative_humidity': 71, 'city': 'Rome', 'latitude': 41.89193, 'longitude': 12.51133, 'date': '2025-03-24'}
+2025-04-01 23:26:11,359 - INFO - Fetching weather for Kyiv (lat: 50.45466, lon: 30.5238)
+2025-04-01 23:26:12,092 - INFO - Fetched weather data for (lat: 50.45466, lon: 30.5238) on 2025-03-24
+2025-04-01 23:26:12,092 - INFO - Weather record for Kyiv: {'time': '2025-03-24T12:00', 'temperature_celsius': 10.8, 'relative_humidity': 55, 'city': 'Kyiv', 'latitude': 50.45466, 'longitude': 30.5238, 'date': '2025-03-24'}
+2025-04-01 23:26:12,093 - INFO - Fetching weather for Barcelona (lat: 41.38879, lon: 2.15899)
+2025-04-01 23:26:12,745 - INFO - Fetched weather data for (lat: 41.38879, lon: 2.15899) on 2025-03-24
+2025-04-01 23:26:12,747 - INFO - Weather record for Barcelona: {'time': '2025-03-24T12:00', 'temperature_celsius': 14.7, 'relative_humidity': 64, 'city': 'Barcelona', 'latitude': 41.38879, 'longitude': 2.15899, 'date': '2025-03-24'}
+2025-04-01 23:26:12,747 - INFO - Fetching weather for Istanbul (lat: 41.01384, lon: 28.94966)
+2025-04-01 23:26:13,406 - INFO - Fetched weather data for (lat: 41.01384, lon: 28.94966) on 2025-03-24
+2025-04-01 23:26:13,408 - INFO - Weather record for Istanbul: {'time': '2025-03-24T12:00', 'temperature_celsius': 16.3, 'relative_humidity': 54, 'city': 'Istanbul', 'latitude': 41.01384, 'longitude': 28.94966, 'date': '2025-03-24'}
+2025-04-01 23:26:13,408 - INFO - Fetching weather for Ankara (lat: 39.91987, lon: 32.85427)
+2025-04-01 23:26:14,043 - INFO - Fetched weather data for (lat: 39.91987, lon: 32.85427) on 2025-03-24
+2025-04-01 23:26:14,045 - INFO - Weather record for Ankara: {'time': '2025-03-24T12:00', 'temperature_celsius': 15.3, 'relative_humidity': 41, 'city': 'Ankara', 'latitude': 39.91987, 'longitude': 32.85427, 'date': '2025-03-24'}
+2025-04-01 23:26:14,045 - INFO - Fetching weather for Madrid (lat: 40.4165, lon: -3.70256)
+2025-04-01 23:26:14,676 - INFO - Fetched weather data for (lat: 40.4165, lon: -3.70256) on 2025-03-24
+2025-04-01 23:26:14,677 - INFO - Weather record for Madrid: {'time': '2025-03-24T12:00', 'temperature_celsius': 11.1, 'relative_humidity': 63, 'city': 'Madrid', 'latitude': 40.4165, 'longitude': -3.70256, 'date': '2025-03-24'}
+2025-04-01 23:26:14,678 - INFO - Fetching weather for Paris (lat: 48.85341, lon: 2.3488)
+2025-04-01 23:26:15,310 - INFO - Fetched weather data for (lat: 48.85341, lon: 2.3488) on 2025-03-24
+2025-04-01 23:26:15,311 - INFO - Weather record for Paris: {'time': '2025-03-24T12:00', 'temperature_celsius': 15.2, 'relative_humidity': 61, 'city': 'Paris', 'latitude': 48.85341, 'longitude': 2.3488, 'date': '2025-03-24'}
+2025-04-01 23:26:15,312 - INFO - Fetching weather for Saint Petersburg (lat: 59.93863, lon: 30.31413)
+2025-04-01 23:26:15,958 - INFO - Fetched weather data for (lat: 59.93863, lon: 30.31413) on 2025-03-24
+2025-04-01 23:26:15,959 - INFO - Weather record for Saint Petersburg: {'time': '2025-03-24T12:00', 'temperature_celsius': 7.5, 'relative_humidity': 56, 'city': 'Saint Petersburg', 'latitude': 59.93863, 'longitude': 30.31413, 'date': '2025-03-24'}
+2025-04-01 23:26:15,960 - INFO - Fetching weather for Minsk (lat: 53.9, lon: 27.56667)
+2025-04-01 23:26:16,605 - INFO - Fetched weather data for (lat: 53.9, lon: 27.56667) on 2025-03-24
+2025-04-01 23:26:16,605 - INFO - Weather record for Minsk: {'time': '2025-03-24T12:00', 'temperature_celsius': 5.1, 'relative_humidity': 97, 'city': 'Minsk', 'latitude': 53.9, 'longitude': 27.56667, 'date': '2025-03-24'}
+2025-04-01 23:26:16,605 - INFO - Fetching weather for London (lat: 51.50853, lon: -0.12574)
+2025-04-01 23:26:17,271 - INFO - Fetched weather data for (lat: 51.50853, lon: -0.12574) on 2025-03-24
+2025-04-01 23:26:17,273 - INFO - Weather record for London: {'time': '2025-03-24T12:00', 'temperature_celsius': 11.8, 'relative_humidity': 63, 'city': 'London', 'latitude': 51.50853, 'longitude': -0.12574, 'date': '2025-03-24'}
+2025-04-01 23:26:17,273 - INFO - Fetching weather for Bucharest (lat: 44.43225, lon: 26.10626)
+2025-04-01 23:26:17,944 - INFO - Fetched weather data for (lat: 44.43225, lon: 26.10626) on 2025-03-24
+2025-04-01 23:26:17,945 - INFO - Weather record for Bucharest: {'time': '2025-03-24T12:00', 'temperature_celsius': 18.0, 'relative_humidity': 64, 'city': 'Bucharest', 'latitude': 44.43225, 'longitude': 26.10626, 'date': '2025-03-24'}
+2025-04-01 23:26:17,945 - INFO - Fetching weather for Berlin (lat: 52.52437, lon: 13.41053)
+2025-04-01 23:26:18,598 - INFO - Fetched weather data for (lat: 52.52437, lon: 13.41053) on 2025-03-24
+2025-04-01 23:26:18,600 - INFO - Weather record for Berlin: {'time': '2025-03-24T12:00', 'temperature_celsius': 12.8, 'relative_humidity': 66, 'city': 'Berlin', 'latitude': 52.52437, 'longitude': 13.41053, 'date': '2025-03-24'}
+2025-04-01 23:26:18,600 - INFO - Fetching weather for Moscow (lat: 55.75222, lon: 37.61556)
+2025-04-01 23:26:19,280 - INFO - Fetched weather data for (lat: 55.75222, lon: 37.61556) on 2025-03-24
+2025-04-01 23:26:19,281 - INFO - Weather record for Moscow: {'time': '2025-03-24T12:00', 'temperature_celsius': 10.0, 'relative_humidity': 46, 'city': 'Moscow', 'latitude': 55.75222, 'longitude': 37.61556, 'date': '2025-03-24'}
+2025-04-01 23:26:19,282 - INFO - Fetching weather for Stockholm (lat: 59.32938, lon: 18.06871)
+2025-04-01 23:26:19,922 - INFO - Fetched weather data for (lat: 59.32938, lon: 18.06871) on 2025-03-24
+2025-04-01 23:26:19,923 - INFO - Weather record for Stockholm: {'time': '2025-03-24T12:00', 'temperature_celsius': 8.4, 'relative_humidity': 48, 'city': 'Stockholm', 'latitude': 59.32938, 'longitude': 18.06871, 'date': '2025-03-24'}
+2025-04-01 23:26:19,924 - INFO - Fetching weather for Warsaw (lat: 52.22977, lon: 21.01178)
+2025-04-01 23:26:20,584 - INFO - Fetched weather data for (lat: 52.22977, lon: 21.01178) on 2025-03-24
+2025-04-01 23:26:20,585 - INFO - Weather record for Warsaw: {'time': '2025-03-24T12:00', 'temperature_celsius': 10.3, 'relative_humidity': 71, 'city': 'Warsaw', 'latitude': 52.22977, 'longitude': 21.01178, 'date': '2025-03-24'}
+2025-04-01 23:26:20,586 - INFO - Fetching weather for Vienna (lat: 48.20849, lon: 16.37208)
+2025-04-01 23:26:21,262 - INFO - Fetched weather data for (lat: 48.20849, lon: 16.37208) on 2025-03-24
+2025-04-01 23:26:21,263 - INFO - Weather record for Vienna: {'time': '2025-03-24T12:00', 'temperature_celsius': 17.2, 'relative_humidity': 50, 'city': 'Vienna', 'latitude': 48.20849, 'longitude': 16.37208, 'date': '2025-03-24'}
+2025-04-01 23:26:21,267 - INFO - Successfully saved aggregated weather data to /Users/gauravlohkna/Documents/bttf_data_platform/scripts/../data/cities_weather_data.csv
+2025-04-01 23:26:53,808 - INFO - Loaded aggregated data: 4 records
+2025-04-01 23:29:54,033 - INFO - Displayed aggregated data visualization.
